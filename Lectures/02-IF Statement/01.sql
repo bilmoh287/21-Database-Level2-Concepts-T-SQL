@@ -1,11 +1,8 @@
-Declare @year int;
-set @year =2001;
-
-IF @year >= 2000
-    BEGIN
-        PRINT '21st century'
-    END
+IF condition
+BEGIN
+    -- Statements to execute if the condition is true
+END
 ELSE
-    BEGIN
-        PRINT '20th century or earlier'
-    END
+BEGIN
+    -- Statements to execute if the condition is false
+END
