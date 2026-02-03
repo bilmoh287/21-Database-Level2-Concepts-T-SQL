@@ -1,8 +1,8 @@
-IF condition
-BEGIN
-    -- Statements to execute if the condition is true
-END
-ELSE
-BEGIN
-    -- Statements to execute if the condition is false
-END
+Declare @a int, @b int;
+set @a = 20;
+set @b=10;
+
+IF @a > @b
+	BEGIN
+		PRINT 'Yes A is greater than B'
+	END
