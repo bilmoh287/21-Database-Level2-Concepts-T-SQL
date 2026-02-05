@@ -1,0 +1,6 @@
+SELECT * FROM Sales
+ORDER BY
+	CASE 
+		WHEN SaleAmount > 150 THEN 1
+		ELSE 2
+	END, SaleAmount DESC;
