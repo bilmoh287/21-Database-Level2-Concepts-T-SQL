@@ -1,0 +1,5 @@
+CREATE PROCEDURE SP_GetAllPeaople
+AS
+BEGIN
+	SELECT * FROM People
+END;
